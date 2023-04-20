@@ -1,4 +1,3 @@
--- TODO: Test
 return {
   -- You can also add new plugins here as well:
   -- Add plugins, the lazy syntax
@@ -22,11 +21,6 @@ return {
     cmd = { "TodoQuickFix" },
     keys = {
       { "<leader>T", "<cmd>TodoTelescope<cr>", desc = "Open TODOs in Telescope" },
-      { "<leader>M", "<cmd>MonokaiProSelect<cr>", desc = "Select Monokai Theme" },
     },
-  },
-  {
-    "loctvl842/monokai-pro.nvim",
-    config = function() require("monokai-pro").setup() end,
   },
 }

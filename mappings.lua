@@ -24,6 +24,9 @@ return {
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
     -- select monokai-pro themes
     ["<leader>M"] = { "<cmd>MonokaiProSelect<cr>", desc = "Monokai-Pro Theme" },
+    -- moving lines in a buffer
+    ["<S-Up>"] = { "<cmd>m-2<cr>" },
+    ["<S-Down>"] = { "<cmd>m+<cr>" },
   },
   t = {
     -- setting a mapping to false will disable it
